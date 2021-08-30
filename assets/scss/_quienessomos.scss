@@ -1,0 +1,65 @@
+											/* VISTA DESKTOP */
+@media only screen and (min-width: 1024px){
+
+.mapa {padding-right: $quince;}
+
+/*.lagunaEsmeralda {width: 650px;
+	padding: $cinco;
+	margin-left: $diez;
+	transition: height 2s, width 1s;
+	box-shadow: 0 0.1rem 0.6rem $gris;}
+
+.lagunaEsmeralda:hover {width: 700px;}*/
+
+.texto {font-size: $veinte;
+	padding: $cinco;
+	margin-left:$quince;
+	font-family: arial;}
+
+.texto2 {font-size: $veinte;
+	padding: $cinco;
+	margin-left: $quince;
+	font-style: $italic;
+	font-family: arial;}}
+
+
+											/* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width:768px) and (max-width:1239px){
+
+.mapa {padding-right: $diez;}
+
+/*.lagunaEsmeralda {width: 500px;
+	padding: $cinco;
+	box-shadow: 0 0.1rem 0.6rem $gris;
+	margin-left: $diez;}
+
+.lagunaEsmeralda:hover {width: 550px;}*/
+
+.texto {font-size: $diecisiete;
+	padding: $cinco;
+	margin-left:$diez;
+	font-family: arial;}
+
+.texto2 {font-size: $diecisiete;
+	padding: $cinco;
+	margin-left: $quince;
+	font-style: $italic;
+	font-family: arial;}}
+
+
+											/* VISTA MOBILE */
+@media only screen and (max-width: 767px){
+
+.mapa {padding: $cinco;}
+
+/*.lagunaEsmeralda {width: 100%;
+	box-shadow: 0 0.1rem 0.6rem $gris;}*/
+
+.texto {font-size: $quince;
+	padding: $cinco;
+	font-family: arial;}
+
+.texto2 {font-size: $quince;
+	padding: $cinco;
+	font-style: $italic;
+	font-family: arial;}}

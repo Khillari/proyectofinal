@@ -1,0 +1,57 @@
+.container-footer {margin-top: $cinco;}
+
+footer p {color: $negro;
+	font-weight: $negrita;
+	text-shadow: 0 0.2rem 0.2rem $blanco;
+	font-size: $veintidos;
+	line-height: $uno;}
+
+footer p a {color: $negro;
+	text-shadow: 0 0.10rem 0.7rem $blanco;}
+
+a:hover {color: $rosa;}
+
+
+											/* VISTA DESKTOP */
+@media only screen and (min-width: 1024px){
+
+.derechosDeAutor {font-size: $trece;
+	font-weight: $italic;}
+
+.footercontacto, .footercontacto2 {bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: $centro;}}
+
+
+											/* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width:768px) and (max-width:1239px){
+
+.derechosDeAutor {font-size: $doce;
+	font-weight: $italic;}
+
+.footercontacto, .footercontacto2 {bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: $centro;}}
+
+
+											/* VISTA MOBILE */
+@media only screen and (max-width: 767px){
+
+.derechosDeAutor {font-size: $once;
+	font-weight: $italic;}
+
+.footercontacto {bottom: 0;
+	width: 100%;
+	text-align: $centro;}
+
+footer p {color: $negro;
+	font-weight: $negrita;
+	text-shadow: 0 0.2rem 0.2rem $blanco;
+	font-size: $dieciseis;}
+
+.footercontacto2 {bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: $centro;}}

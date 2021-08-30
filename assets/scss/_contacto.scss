@@ -1,0 +1,35 @@
+											/* FORMULARIO */
+.formulario1 {color: $celeste;
+	text-align: $izquierda;
+	font-weight: $negrita;}
+
+.formulario2 {color: $rosa;
+	text-align: $izquierda;
+	font-weight: $negrita;}
+
+.formulario3 {color: $celeste;
+	text-align: $izquierda;
+	font-weight: $negrita;}  
+
+.enviar {background-color: $rosa;
+	color: $negro;
+	font-weight: $negrita;
+	border: 1px solid $rosa;
+	box-shadow: 0 0.1rem 0.1rem $gris;}
+
+.enviar:hover {background-color: $violeta;
+	border: 1px solid $violeta;}
+
+.borrar {background-color: $celeste;
+	color: $negro;
+	font-weight: $negrita;
+	border: 1px solid $celeste;
+	box-shadow: 0 0.1rem 0.2rem $gris;}
+
+.borrar:hover {background-color: $violeta;
+	border: 1px solid $violeta;}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: $blanco;
+    background-color: $violetaoscuro;
+    border-color: $violetaoscuro;}

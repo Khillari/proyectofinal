@@ -1,0 +1,139 @@
+$italic: italic;
+$negrita: bold;
+
+$transparente: transparent;
+
+$gris: gray;
+$celeste: lightskyblue;
+$rosa: lightpink;
+$violeta: #d4b3ff;
+$violetaoscuro: #a45fff;
+$negro: black;
+$blanco: white;
+$grisazul: #F3F5F8;
+
+$hidden:hidden;
+$no: none;
+
+$izquierda: left;
+$derecha: right;
+$centro: center;
+
+$uno: 1px;
+$cinco: 5px;
+$diez: 10px;
+$once: 11px;
+$doce: 12px;
+$trece: 13px;
+$quince: 15px;
+$dieciseis: 16px;
+$diecisiete: 17px;
+$dieciocho: 18px;
+$veinte: 20px;
+$veintidos: 22px;
+$veinticinco: 25px;
+$treinta: 30px;
+$treintaycinco: 35px;
+$cuarenta: 40px;
+$cincuenta: 50px;
+$sesenta: 60px;
+$setenta: 70px;
+$ochenta: 80px;
+
+* {margin: 0;
+	padding: 0;} 
+
+.body {background: $grisazul;}
+
+.bodyQuienesSomos {overflow:$hidden;}
+
+.contenedor {text-align: $centro;}
+
+.titulo1 {text-shadow: 0 0.1rem 0.1rem $gris;}
+
+.titulo2 {text-shadow: 0 0.1rem 0.1rem $gris;}
+
+
+											/* VISTA DESKTOP */
+@media only screen and (min-width: 1024px){
+
+.titulo1 {text-align: $centro;
+	font-weight:$negrita;
+	color: $rosa;
+	font-size: $sesenta;
+	margin-bottom: $veinticinco;
+	text-shadow: 0 0.1rem 0.1rem $negro;} 
+
+@keyframes efecto {0% {color: $rosa;}
+	50% {color: $celeste;}
+	100% {color: $rosa;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: 30px;} 
+
+.titulo2 {text-align: $centro;
+	font-weight:$negrita;
+	color: $celeste;
+	font-size: $sesenta;
+	margin-bottom: $veinticinco;
+	text-shadow: 0 0.1rem 0.1rem $negro;}}
+
+
+
+											/* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width:768px) and (max-width:1239px){
+
+.titulo1 {text-align: $centro;
+	font-weight:$negrita;
+	color: $celeste;
+	font-size: $cuarenta;
+	margin-bottom: $veinte;} 
+
+@keyframes efecto {0% {color: $celeste;}
+	50% {color: $rosa;}
+	100% {color: $celeste;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: $veinte;} 
+
+.titulo2 {text-align: $centro;
+	font-weight:$negrita;
+	color: $rosa;
+	font-size: $cuarenta;
+	margin-bottom: $veinte;}}
+
+
+
+											/* VISTA MOBILE */
+@media only screen and (max-width: 767px){
+
+.titulo1 {text-align: $centro;
+	font-weight:$negrita;
+	color: $rosa;
+	font-size: $treinta;
+	margin-bottom: $diecisiete;} 
+
+@keyframes efecto {0% {color: $rosa;}
+	50% {color: $celeste;}
+	100% {color: $rosa;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: $quince;} 
+
+.titulo2 {text-align: $centro;
+	font-weight:$negrita;
+	color: $celeste;
+	font-size: $treinta;
+	margin-bottom: $diecisiete;}}
