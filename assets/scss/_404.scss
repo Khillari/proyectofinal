@@ -13,7 +13,8 @@ a:hover {color: $negro;
 .titulo3 {padding-top:10px;
     text-shadow: 0 0.1rem 0.1rem $negro;}
 
-.body404 { background: linear-gradient(150deg, $celeste, $rosa, $violeta);
+                                            /* ANIMACION BODY */
+.body404 {background: linear-gradient(150deg, $celeste, $rosa, $violeta);
     background-size: 400% 300%;
     animation: BgGradient 5s 30;}
 
