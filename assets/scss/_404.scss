@@ -1,0 +1,64 @@
+.btn-primary {color: $blanco;
+        background-color: $negro;
+        border-color: $negro;}
+
+.bototon:hover {
+    color: $blanco;
+    background-color: $gris;
+    border-color: $gris;}
+
+a:hover {color: $negro;
+    text-decoration: none;}
+
+.titulo3 {padding-top:10px;
+    text-shadow: 0 0.1rem 0.1rem $negro;}
+
+.body404 { background: linear-gradient(150deg, $celeste, $rosa, $violeta);
+    background-size: 400% 300%;
+    animation: BgGradient 5s 30;}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+                                            /* VISTA DESKTOP */
+@media only screen and (min-width: 1024px){
+
+.contenedor404 {text-align: $centro;
+        padding-bottom: 20%;}
+
+.titulo3 {text-align: $centro;
+    font-weight:$negrita;
+    padding-bottom:15%;
+    color: $negro;
+    font-size: $sesenta;
+    margin-bottom: $veinticinco;
+    text-shadow: 0 0.1rem 0.1rem $negro;}}
+
+                                            /* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width:768px) and (max-width:1239px){
+
+.contenedor404 {text-align: $centro;
+        padding-bottom: 33%;}
+
+.titulo3 {text-align: $centro;
+    font-weight:$negrita;
+    padding-bottom:27%;
+    color: $negro;
+    font-size: $cuarenta;
+    margin-bottom: $veinte;}} 
+
+                                            /* VISTA MOBILE */
+@media only screen and (max-width: 767px){
+
+.contenedor404 {text-align: $centro;
+        padding-bottom: 45%;}
+
+.titulo3 {text-align: $centro;
+    font-weight:$negrita;
+    padding-bottom:45%;
+    color: $negro;
+    font-size: $treinta;
+    margin-bottom: $diecisiete;}}

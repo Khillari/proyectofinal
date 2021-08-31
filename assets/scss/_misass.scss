@@ -53,6 +53,9 @@ $ochenta: 80px;
 
 .titulo2 {text-shadow: 0 0.1rem 0.1rem $negro;}
 
+a {color: $negro;
+  text-decoration: $no;
+  background-color: $transparente;}
 
 											/* VISTA DESKTOP */
 @media only screen and (min-width: 1024px){

@@ -7205,6 +7205,11 @@ a.text-dark:hover, a.text-dark:focus {
 .titulo2 {
   text-shadow: 0 0.1rem 0.1rem black; }
 
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent; }
+
 /* VISTA DESKTOP */
 @media only screen and (min-width: 1024px) {
   .titulo1 {
@@ -7358,8 +7363,9 @@ footer p a {
   color: black;
   text-shadow: 0 0.1rem 0.7rem white; }
 
-a:hover {
-  color: lightpink; }
+footer a:hover {
+  color: lightpink;
+  text-decoration: none; }
 
 /* VISTA DESKTOP */
 @media only screen and (min-width: 1024px) {
@@ -7548,3 +7554,74 @@ a:hover {
     padding: 5px;
     font-style: italic;
     font-family: arial; } }
+
+.btn-primary {
+  color: white;
+  background-color: black;
+  border-color: black; }
+
+.bototon:hover {
+  color: white;
+  background-color: gray;
+  border-color: gray; }
+
+a:hover {
+  color: black;
+  text-decoration: none; }
+
+.titulo3 {
+  padding-top: 10px;
+  text-shadow: 0 0.1rem 0.1rem black; }
+
+.body404 {
+  background: linear-gradient(150deg, lightskyblue, lightpink, #d4b3ff);
+  background-size: 400% 300%;
+  animation: BgGradient 5s 30; }
+
+@keyframes BgGradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/* VISTA DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .contenedor404 {
+    text-align: center;
+    padding-bottom: 20%; }
+  .titulo3 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15%;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-shadow: 0 0.1rem 0.1rem black; } }
+
+/* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width: 768px) and (max-width: 1239px) {
+  .contenedor404 {
+    text-align: center;
+    padding-bottom: 33%; }
+  .titulo3 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 27%;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px; } }
+
+/* VISTA MOBILE */
+@media only screen and (max-width: 767px) {
+  .contenedor404 {
+    text-align: center;
+    padding-bottom: 45%; }
+  .titulo3 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 45%;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 17px; } }
